@@ -18,7 +18,7 @@
       top: (_window.height()/2) - (this.height()/2),
       left: (_window.width()/2) - (this.width()/2),
     })
-    this.fadeIn(500);
+    this.fadeIn();
     return this;
   }
 })(jQuery);
