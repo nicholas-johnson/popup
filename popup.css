@@ -1,0 +1,15 @@
+/* Sample css for a popup. */
+
+.poppedUp {
+  background:#fff;
+  border:2px solid #0badc6;
+  border-radius:2px;
+  overflow:auto;
+}
+
+.poppedUp h1,
+.poppedUp h2,
+.poppedUp p,
+.poppedUp nav {
+  margin:10px;
+}
