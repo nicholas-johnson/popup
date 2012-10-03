@@ -4,10 +4,9 @@
 /* If you repost on a code sharing site, please give attribution: www.trivial.ly */
 (function($) {
   $.fn.popUp = function() {
-    this.css({
+    this.addClass('poppedUp').css({
       position: "absolute",
       'z-index':10001,
-      background: '#fff',
       width: "50%",
       height: "50%",
       'min-width': '350px',
