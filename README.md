@@ -51,4 +51,10 @@ Style it however you like. Now hook it up, something like the following (assumin
 
 ## Unobtrusive
 
-With JavaScript turned off, your div is still on the page. If it's an important message, pop it at the top. Accessible. Useful.
+With JavaScript turned off, your div is still on the page. If it contains an important message, pop it at the top. Your user will still get it. Accessible. Useful.
+
+## Can I see one?
+
+Yes, you can see one in the wild here:
+
+http://www.streetbank.com/splash?demo_nag=true
