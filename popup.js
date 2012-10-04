@@ -5,12 +5,12 @@
 (function($) {
   $.fn.popUp = function() {
     this.addClass('poppedUp').css({
-      position: "absolute",
+      position: "fixed",
       'z-index':10001,
       width: "50%",
-      height: "50%",
+      height: "auto",
       'min-width': '350px',
-      'min-height': '350px'
+      'max-height': '350px'
     });
     var _window = $(window);
     this.css({
